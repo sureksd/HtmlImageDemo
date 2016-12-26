@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Sure\Sure Docs\Android_Studio\Libraries\HtmlImageDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="D:\Sure\Sure Docs\Android_Studio\Libraries\HtmlImageDemo\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_760dc69cf5743ce5aac21c8947889078b3fef1be.jar" />
+    </item>
+    <item
+        jar="D:\Sure\Sure Docs\Android_Studio\Libraries\HtmlImageDemo\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="D:\Sure\Sure Docs\Android_Studio\Libraries\HtmlImageDemo\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_f850a8aacf072d79b9a3beb2689e11528776548c.jar" />
+    </item>
+    <item
+        jar="D:\Sure\Sure Docs\Android_Studio\Libraries\HtmlImageDemo\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="D:\Sure\Sure Docs\Android_Studio\Libraries\HtmlImageDemo\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_d78163a10cc1afc471d99ef14371d9b498a320bb.jar" />
+    </item>
+    <item
+        jar="C:\Users\hemandra\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="D:\Sure\Sure Docs\Android_Studio\Libraries\HtmlImageDemo\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_43b22c900ad98054b131dfea6b7c8c72546b7eb6.jar" />
+    </item>
+    <item
+        jar="D:\Sure\Sure Docs\Android_Studio\Libraries\HtmlImageDemo\app\build\intermediates\exploded-aar\com.om.html\htmlimage\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="50871f8ef3e4620b99970cc801120894aba03f8d">
+        <dex dex="D:\Sure\Sure Docs\Android_Studio\Libraries\HtmlImageDemo\app\build\intermediates\pre-dexed\debug\com.om.html-htmlimage-1.0.0_e7e158722e7832ca203dd7ebf32af4be2ca30efc.jar" />
+    </item>
+
+</items>
