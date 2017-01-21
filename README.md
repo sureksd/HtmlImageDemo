@@ -26,18 +26,25 @@ How integrate to HtmlImage?
 
 ## Coding Part
 
-### Hiberoid Object
+### Add view in xml file
 
-Create a object of Hiberoid for request on Sqlite for database queries. Requirement for Create object of Hiberoid as parameter:
-
+Add HtmlImage in xml file like
 1. Context of your app
 2. Database name you want to create
 3. Your database version in int. If you want to update your exist database then required increament old version value.
 
 ```yml
-int version=1;
-Hiberoid hiberoid=new Hiberoid(context,"my_database_name",version);
+<com.om.html.htmlimage.HtmlImage
+        android:id="@+id/img"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/image"
+        app:shapeType="circle" />
 ```
+1. The above code make a circle of image
+2. If width and height are not then image look like as ovel.
 ### Bean Class and Database Table
 
 Hiberoid mapping your bean class to database table. Hiberoid using some annotations like @Entity, @Id, @Column for direct fast and simple implementation.
