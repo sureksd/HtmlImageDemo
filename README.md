@@ -42,6 +42,7 @@ Add HtmlImage in xml file like
         app:shapeType="circle" />
 ```
 1. The above code make a circle of image
+![Thumbnail of slate](thumbnail.png)
 2. If width and height are not then image look like as ovel.
 ### Bean Class and Database Table
 
