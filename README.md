@@ -29,9 +29,7 @@ How integrate to HtmlImage?
 ### Add view in xml file
 
 Add HtmlImage in xml file like
-1. Context of your app
-2. Database name you want to create
-3. Your database version in int. If you want to update your exist database then required increament old version value.
+
 
 ```yml
 <com.om.html.htmlimage.HtmlImage
