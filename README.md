@@ -57,6 +57,27 @@ Add HtmlImage in xml file like
  </br>
 <img src="https://drive.google.com/uc?id=0B9Y_4cA1IvkgZFVYc2VZakRLV2c" style="width:200px;height:200px;">
 
+3. More attributes
+```yml
+<com.om.html.htmlimage.HtmlImage
+        android:id="@+id/img"
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/image"
+        app:shapeType="circle"
+        
+        app:shapeType="circle"
+        app:radius="20dp"
+        app:radiusX="20dp"
+        app:radiusY="20dp"
+        app:startPointX="100dp"
+        app:startPointY="100dp"
+        app:ratio_tensility="height"/>
+```
+    
+
 ### Bean Class and Database Table
 
 Hiberoid mapping your bean class to database table. Hiberoid using some annotations like @Entity, @Id, @Column for direct fast and simple implementation.
