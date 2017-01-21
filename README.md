@@ -93,19 +93,20 @@ Add HtmlImage in xml file like
 ```
 <img src="https://drive.google.com/uc?id=0B9Y_4cA1IvkgS3NrWGI1NDZEcXc" style="width:200px;height:200px;">
 
-### Bean Class and Database Table
-
-Hiberoid mapping your bean class to database table. Hiberoid using some annotations like @Entity, @Id, @Column for direct fast and simple implementation.
+### Load Image from server
+Set image url then it's load asynchronouesly and set image.
 ```yml
-@Entity(name = "Students")
-public class Student implements Serializable {
-    
-    private int id;
-    private String name;
-    private String class_name;
-    private String grade;
-    .....
-}
+    HtmlImage image = (HtmlImage) findViewById(R.id.img);
+                image.setSrcUrl("http://www.esa.int/var/esa/storage/images/esa_multimedia/images/2016/03/ultraviolet_image_shows_the_sun_s_intricate_atmosphere/15891756-1-eng-GB/Ultraviolet_image_shows_the_Sun_s_intricate_atmosphere_node_full_image_2.jpg", new HtmlImage.LoadImageListener() {
+            @Override
+            public void post(Bitmap bitmap, String url) {
+                if (bitmap == null) {
+                    Log.e(TAG, "post: Bitmap null");
+                } else {
+                    Log.e(TAG, url + " = " + bitmap);
+                }
+            }
+        });
 ```
 In above code, bean class name is 'Student' but table name 'Students'. Here using @Entity annotation on bean class (@Entity is class level Annotation) for make this bean class(Student) to table of database, if you’re not set @Entity on any bean class that mean class not a table for database mapping. Hiberoid make mapping on only those class have @Entity annotation, without annotation classes are normal class.
 ```yml
