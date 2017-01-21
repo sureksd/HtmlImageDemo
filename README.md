@@ -78,8 +78,9 @@ Add HtmlImage in xml file like
         app:ratio_tensility="height"/>
 ```
     4. Round Image
-    ```yml
-<com.om.html.htmlimage.HtmlImage
+   
+```yml
+ <com.om.html.htmlimage.HtmlImage
         android:id="@+id/img"
         android:layout_width="250dp"
         android:layout_height="250dp"
@@ -91,7 +92,7 @@ Add HtmlImage in xml file like
         />
 ```
       </br>
-<img src="https://drive.google.com/uc?id=0B9Y_4cA1IvkgS3NrWGI1NDZEcXc" style="width:200px;height:200px;"></br>
+<img src="https://drive.google.com/uc?id=0B9Y_4cA1IvkgS3NrWGI1NDZEcXc" style="width:200px;height:200px;">
 
 ### Bean Class and Database Table
 
