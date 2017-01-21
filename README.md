@@ -77,7 +77,21 @@ Add HtmlImage in xml file like
         app:startPointY="100dp"
         app:ratio_tensility="height"/>
 ```
-    
+    4. Round Image
+    ```yml
+<com.om.html.htmlimage.HtmlImage
+        android:id="@+id/img"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitXY"
+        android:src="@drawable/image"
+        app:shapeType="round_rectangle"
+        app:radius="50dp"
+        />
+```
+      </br>
+<img src="https://drive.google.com/uc?id=0B9Y_4cA1IvkgS3NrWGI1NDZEcXc" style="width:200px;height:200px;"></br>
 
 ### Bean Class and Database Table
 
