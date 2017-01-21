@@ -97,7 +97,7 @@ Add HtmlImage in xml file like
 Set image url then it's load asynchronouesly and set image.
 ```yml
     HtmlImage image = (HtmlImage) findViewById(R.id.img);
-                image.setSrcUrl("http://www.esa.int/var/esa/storage/images/esa_multimedia/images/2016/03/ultraviolet_image_shows_the_sun_s_intricate_atmosphere/15891756-1-eng-GB/Ultraviolet_image_shows_the_Sun_s_intricate_atmosphere_node_full_image_2.jpg", new HtmlImage.LoadImageListener() {
+                image.setSrcUrl("https://github.com/full_image_2.jpg", new HtmlImage.LoadImageListener() {
             @Override
             public void post(Bitmap bitmap, String url) {
                 if (bitmap == null) {
