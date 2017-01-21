@@ -42,7 +42,7 @@ Add HtmlImage in xml file like
         app:shapeType="circle" />
 ```
 1. The above code make a circle of image </br>
-<img src="https://drive.google.com/uc?id=0B9Y_4cA1IvkgRDRMU2V1TzF6R1k" style="max-width:100%;">
+<img src="https://drive.google.com/uc?id=0B9Y_4cA1IvkgRDRMU2V1TzF6R1k" style="width:100px;height:100px;max-width:100%;">
 2. If width and height are not same then image look like as ovel.
 
 ### Bean Class and Database Table
