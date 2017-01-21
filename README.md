@@ -41,7 +41,7 @@ Add HtmlImage in xml file like
         android:src="@drawable/image"
         app:shapeType="circle" />
 ```
-1. The above code make a circle of image
+1. The above code make a circle of image </br>
 <img src="http://sigmatechgroup.info/quiz/webservice/app_icon.png" style="max-width:100%;">
 2. If width and height are not same then image look like as ovel.
 
