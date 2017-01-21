@@ -44,6 +44,8 @@ Add HtmlImage in xml file like
 1. The above code make a circle of image </br>
 <img src="https://drive.google.com/uc?id=0B9Y_4cA1IvkgRDRMU2V1TzF6R1k" style="width:200px;height:200px;">
 2. If width and height are not same then image look like as ovel.
+ </br>
+<img src="https://drive.google.com/uc?id=0B9Y_4cA1IvkgZFVYc2VZakRLV2c" style="width:200px;height:200px;">
 
 ### Bean Class and Database Table
 
