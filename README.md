@@ -43,7 +43,7 @@ Add HtmlImage in xml file like
 ```
 1. The above code make a circle of image
 <img src="https://drive.google.com/file/d/0B9Y_4cA1IvkgRDRMU2V1TzF6R1k/view" style="max-width:100%;">
-2. If width and height are not then image look like as ovel.
+2. If width and height are not same then image look like as ovel.
 
 ### Bean Class and Database Table
 
