@@ -55,9 +55,10 @@ Add HtmlImage in xml file like
         app:shapeType="circle" />
 ```
  </br>
-<img src="https://drive.google.com/uc?id=0B9Y_4cA1IvkgZFVYc2VZakRLV2c" style="width:200px;height:200px;">
+<img src="https://drive.google.com/uc?id=0B9Y_4cA1IvkgZFVYc2VZakRLV2c" style="width:200px;height:200px;"></br>
 
 3. More attributes
+
 ```yml
 <com.om.html.htmlimage.HtmlImage
         android:id="@+id/img"
