@@ -57,8 +57,8 @@ Add HtmlImage in xml file like
  </br>
 <img src="https://drive.google.com/uc?id=0B9Y_4cA1IvkgZFVYc2VZakRLV2c" style="width:200px;height:200px;"></br>
 
-3. More attributes
-
+    3. More attributes
+    
 ```yml
 <com.om.html.htmlimage.HtmlImage
         android:id="@+id/img"
@@ -91,7 +91,6 @@ Add HtmlImage in xml file like
         app:radius="50dp"
         />
 ```
-      </br>
 <img src="https://drive.google.com/uc?id=0B9Y_4cA1IvkgS3NrWGI1NDZEcXc" style="width:200px;height:200px;">
 
 ### Bean Class and Database Table
